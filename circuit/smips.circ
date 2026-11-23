@@ -220,6 +220,7 @@
   <circuit name="CPU">
     <a name="appearance" val="custom"/>
     <a name="circuit" val="CPU"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
     <appear>
       <rect fill="none" height="280" stroke="#000000" stroke-width="2" width="220" x="50" y="50"/>
@@ -750,11 +751,7 @@
     </comp>
     <comp lib="7" loc="(500,40)" name="Text">
       <a name="font" val="SansSerif bold 20"/>
-      <a name="text" val="CPU S-MIPS: implementar aqui"/>
-    </comp>
-    <comp lib="7" loc="(500,65)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="No cambiar nombres, anchos ni sentido de los pines: la placa depende de ellos."/>
+      <a name="text" val="CPU S-MIPS"/>
     </comp>
     <comp lib="7" loc="(880,305)" name="Text">
       <a name="color" val="#ffffff"/>
