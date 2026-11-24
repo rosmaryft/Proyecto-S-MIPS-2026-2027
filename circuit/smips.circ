@@ -6762,9 +6762,9 @@
       <a name="color" val="#616161"/>
       <a name="text" val="Imprime un carácter en la pantalla (TTY)"/>
     </comp>
-    <comp lib="7" loc="(480,60)" name="Text">
+    <comp lib="7" loc="(489,59)" name="Text">
       <a name="color" val="#616161"/>
-      <a name="text" val="Máquina de Moore"/>
+      <a name="text" val="Secuenciador de Moore"/>
     </comp>
     <comp lib="7" loc="(620,170)" name="Text">
       <a name="color" val="#616161"/>
@@ -6786,9 +6786,9 @@
       <a name="color" val="#6b6b6b"/>
       <a name="text" val="Del Datapath"/>
     </comp>
-    <comp lib="7" loc="(85,20)" name="Text">
+    <comp lib="7" loc="(83,23)" name="Text">
       <a name="color" val="#6b6b6b"/>
-      <a name="text" val="Control Goblal"/>
+      <a name="text" val="Control Global"/>
     </comp>
     <comp lib="7" loc="(865,155)" name="Text">
       <a name="color" val="#616161"/>
@@ -8692,6 +8692,10 @@
     <comp lib="7" loc="(560,235)" name="Text">
       <a name="color" val="#a8a8a8"/>
       <a name="text" val="V0_Reg"/>
+    </comp>
+    <comp lib="7" loc="(567,653)" name="Text">
+      <a name="color" val="#a8a8a8"/>
+      <a name="text" val="$ra_Reg"/>
     </comp>
     <comp lib="7" loc="(795,1435)" name="Text">
       <a name="color" val="#a8a8a8"/>
