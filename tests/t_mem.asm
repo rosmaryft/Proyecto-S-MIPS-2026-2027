@@ -1,5 +1,6 @@
 # tests/t_mem.asm
-# Cubre: lw/sw con desplazamiento positivo y negativo;
+# Cubre: lw/sw con desplazamiento positivo y negativo (lw con 8 y -8,
+#        sw con 8 y -8);
 #        lb/lbu sobre bytes con bit 7 = 1 en las posiciones 0 y 2;
 #        sb en las cuatro posiciones de una palabra (d[1:0] = 0,1,2,3)
 #        comprobando con lw que los demas bytes no cambian;
@@ -42,6 +43,10 @@ main:   la    $s0, buf
         addi  $s1, $s0, 16
         lw    $a0, -8($s1)        # desplazamiento negativo: buf+8
         jal   print_hex           # 0x12345678
+        li    $t0, 0x0BADF00D
+        sw    $t0, -8($s1)        # sw con desplazamiento negativo: buf+8
+        lw    $a0, 8($s0)         # 0x0badf00d
+        jal   print_hex
         li    $v0, 10
         syscall
 
